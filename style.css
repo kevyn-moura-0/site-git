@@ -1,0 +1,133 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('truetype');
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #dcfff3;
+}
+
+.cabeca {
+    background-color: #40b188;
+    border-radius: 10px;
+    margin: center;
+    border: 0px;
+    padding: 0px;
+    background-image: linear-gradient(to right, #2ba87c, #09754d);
+}
+
+.cabeca > h1 {
+    text-align: center;
+    color: #003a00;
+    text-shadow: 1px 1px 1px #003a005b;
+}
+.cabeca > p {
+    color: #d5f1d5;
+    text-align: center;
+}
+
+#links {
+    text-align: center;
+    padding: 6px;
+}
+
+#link1 {
+    background-color: #015f01;
+    color: #9fee9f;
+    text-decoration: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px #00000062;
+    padding: 2px;
+}
+
+#link2 {
+    background-color: #015f01;
+    color: #9fee9f;
+    text-decoration: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px #00000062;
+    padding: 2px;
+}
+
+#link3 {
+    background-color: #015f01;
+    color: #9fee9f;
+    text-decoration: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px #00000062;
+    padding: 2px;
+}
+
+#link4 {
+    background-color: #015f01;
+    color: #9fee9f;
+    text-decoration: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px #00000062;
+    padding: 2px;
+}
+
+main {
+    background-color: white;
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+}
+
+.inicio_historia > h2 {
+    text-align: center;
+    color: #003a00;
+}
+
+p {
+    text-indent: 40px;
+    text-align: justify;
+    padding: 0px 15px 0px 15px;
+}
+
+.artigo1 > h3 {
+    background-image: linear-gradient(to right, #94e4c7, #e3fff5);
+    text-indent: 20px;
+    color: #003a00;
+}
+
+.artigo2 > h3 {
+    background-image: linear-gradient(to right, #94e4c7, #e3fff5);
+    text-indent: 20px;
+    color: #003a00;
+}
+
+img {
+    display: block;
+    margin: auto;
+
+}
+
+.youtube_video {
+    text-align: center;
+}
+
+.finalization {
+    background-color: #94e4c7;
+    border-radius: 10px;
+    padding: 0px 0px 10px 0px;
+    border-color: #003a00;
+    border: 10px;
+}
+
+.finalization > h3{
+    background-color: #003a00;
+    color: #d1ffef;
+    text-indent: 10px;
+    text-align: left;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+}
+
+aside {
+    text-align: center;
+    background-color: #003a00;
+    color: #d1ffef;
+}
